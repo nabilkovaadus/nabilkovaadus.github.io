@@ -12,54 +12,76 @@
     <link href="./bootstrap.min.css" rel="stylesheet">
     <link href="./fonts.css" rel="stylesheet">
     <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-
-        body{
-            font-family: HelveticaNeueLTW1G,sans-serif;
+        body {
+            font-family: HelveticaNeueLTW1G, sans-serif;
             font-weight: 400;
         }
 
-        h1, h2, h3, h4{
-            font-family: Romie,serif;
+        h1, h2, h3, h4 {
+            font-family: Romie, serif;
             font-weight: 400;
         }
 
-        footer img{
-            /*border:1px solid black;*/
+        h4 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+
+
+
+        footer img {
             margin-top: -0.2rem;
             height: 1.5rem;
         }
 
-        header img{
-            /*border:1px solid black;*/
+        header img {
             margin-top: -0.2rem;
             height: 6rem;
         }
+
+        section {
+            margin-bottom: 20vh;
+        }
+
+        #o-nas ol {
+            font-size: 0.8rem;
+        }
+
+        #o-nas li {
+            margin-bottom: 0.3rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .col-12{
+                margin-bottom: 10vw;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .row {
+                margin-bottom: 10vw;
+            }
+
+            #sperk1 {
+                width: 23.5%;
+            }
+
+            #sperk5 {
+                width: 24.2%;
+            }
+        }
     </style>
-
-
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
 </head>
 <body>
 
 <div class="col-lg-8 mx-auto p-3 py-md-5">
     <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
         <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-            <img src="/logo.png" />
-            <span class="fs-4">New episode by Nabilkova x Adus</span>
+            <img src="/logo.png"/>
+            <h1 class="fs-4">New episode by Nabilkova x Adus</h1>
         </a>
     </header>
 
@@ -68,7 +90,6 @@
             <img src="/new_episode.png" alt="" class="img-fluid">
 
             <section>
-                <h2>O spolupráci</h2>
                 <p>Paradox, spochybňovanie, netradičné materiály, konceptuálne zázemie... Autori uznávajú spoločné
                     hodnoty, ich estetika rada vyvoláva otázky súvisiace s kontroverznosťou, ktorú do diel tematicky
                     aplikujú. Každý autor prináša do spolupráce osobitný pohľad na daný materiál, ženský element
@@ -76,115 +97,232 @@
                     stáva, že autori predstavujú opozičný postoj a balansujú tak medzi pevnosťou a krehkosťou. V
                     protikladnom prístupe hľadajú spoločnú harmóniu, s ktorou vytvárajú kolekciu plnú odlišných
                     prístupov.</p>
+
+                <div class="row">
+                    <div class="col-12 col-3" id="sperk1">
+                        <img src="/img/sperk1.jpg" alt="Šperk - Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-3">
+                        <img src="/img/sperk2.jpg" alt="Šperk - Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-12">
+                        <img src="/img/sperk3.jpg" alt="Šperk - Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 offset-md-2">
+                        <p>Kolekcia šperkov je vyrobená z nepoužitých a v dnešnej dobe už nevyužívaných ihiel na
+                            adrenalín.
+                            Použitie drahých kovov v šperkoch môžeme nájsť, ale nie sú viditeľné na prvý pohľad a
+                            nepútajú našu
+                            pozornosť. Kolekcia sa odkláňa od estetického šperku s materiálnou “tradičnou” hodnotou a
+                            spolusúvisiacej spoločenskej prestíže. Nesie v sebe filozofické zázemie, ktoré vyjadruje
+                            vzťah
+                            nositeľa k šperku. Šperk tak prichádza do konfrontácie s okolím a spochybňuje zažité
+                            stereotypy</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="/img/sperk4.jpg" alt="Šperk - Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                </div>
+
+
+                <div class="row align-items-end">
+                    <div class="col-12 col-md-4">
+                        <img src="/img/satka1.jpg" alt="Šatka - Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                    <div class="col-12 col-md-8 px-5">
+                        <p>Šatky v sebe nesú náladu padajúcej hmly, hmloviny, ktorá zahaľuje svet a pohlcuje jeho
+                            farebnosť. Z melancholického pocitu vystupuje spleť lineárnej kresby, ktorá symbolizuje vychádzajúce
+                            obrysy tieňov pohlteného prostredia. Hodváb, z ktorého sú šatky vytvorené reprezentuje ľahkosť,
+                            vzdušnosť a má zhmotniť snený opar mlhy. Práve hra kontrastného prístupu vzdušného materiálu s ráznou ostrou kresbou definuje ich charakter.</p>
+                    </div>
+                </div>
+
+                <div class="row align-items-end">
+                    <div class="col-12 col-md-4">
+                        <img src="/img/satka2.jpg" alt="Šatka - Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-2">
+                        <img src="/img/satka3.jpg" alt="Šatka - Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="/img/spolupraca1.jpg" alt="Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                    <div class="col-12 col-md-3 offset-md-3" id="sperk5">
+                        <img src="/img/sperk5.jpg" alt="Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <img style="filter: grayscale(100%);" src="/img/spolupraca2.jpg" alt="Nabilkova x Adus" class="img img-fluid">
+                    </div>
+
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3 offset-md-1">
+                        <img src="/img/sperk6.jpg" alt="Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-2">
+                        <img src="/img/spolupraca3.jpg" alt="Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-5 offset-md-1">
+                        <img src="/img/spolupraca4.jpg" alt="Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                    <div class="col-12 col-md-3 offset-md-3">
+                        <img src="/img/spolupraca5.jpg" alt="Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                </div>
+
             </section>
 
-            <section>
-                <h2>O kolekcii</h2>
-                <p>Kolekcia šperkov je vyrobená z nepoužitých a v dnešnej dobe už nevyužívaných ihiel na adrenalín.
-                    Použitie drahých kovov v šperkoch môžeme nájsť, ale nie sú viditeľné na prvý pohľad a nepútajú našu
-                    pozornosť. Kolekcia sa odkláňa od estetického šperku s materiálnou “tradičnou” hodnotou a
-                    spolusúvisiacej spoločenskej prestíže. Nesie v sebe filozofické zázemie, ktoré vyjadruje vzťah
-                    nositeľa k šperku. Šperk tak prichádza do konfrontácie s okolím a spochybňuje zažité stereotypy</p>
-                <p>Šatky v sebe nesú náladu padajúcej hmly, hmloviny, ktorá zahaľuje svet a pohlcuje jeho farebnosť. Z
-                    melancholického pocitu vystupuje spleť lineárnej kresby, ktorá symbolizuje vychádzajúce obrysy
-                    tieňov pohlteného prostredia. Hodváb, z ktorého sú šatky vytvorené reprezentuje ľahkosť, vzdušnosť a
-                    má zhmotniť snený opar mlhy. Práve hra kontrastného prístupu vzdušného materiálu s ráznou ostrou
-                    kresbou definuje ich charakter.</p>
-            </section>
+
+            <section id="o-nas">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
+                        <h2 class="text-center">O nás</h2>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="/img/o-nas.jpg" alt="Nabilkova x Adus" class="img img-fluid">
+                    </div>
+                </div>
+
+                <div class="row" style="margin-bottom: 10vw">
+                    <div class="col-12 col-md-4 order-md-2">
+                        <h3 class="text-end">Katarína Nábilková</h3>
+                    </div>
+                    <div class="col-12 col-md-7 order-md-1">
+                        <p>Katarína Nábilková je študentkou ateliéru K.O.V. na UMPRUM. Vo svojej tvorbe často aplikuje
+                            materiály, ktoré sú pre šperk nekonvenčné, ako aj jeho tvaroslovie. Šperk pre autorku nesie
+                            výpovednú hodnotu postoja, ktorý prináša okoliu. Nejde tu len o funkciu estetickú, ale
+                            neoddeliteľne
+                            sa prelína s konceptuálnym zázemím, ktorý nositeľ či nositeľka zdieľa. Šperk tak prichádza
+                            do
+                            konfrontácie s okolím a zpochybňuje zažité stereotypy. Súčasne vrátane tvorby a štúdia
+                            umeleckého
+                            šperku sa venuje konceptuálnym objektom, inštaláciámči presahu do dizajnu.</p>
 
 
-            <section>
-                <h2>O nás</h2>
+                        <h4>Education</h4>
+                        <ol class="list-unstyled">
+                            <li>Academy of Arts, Architecture and Design in Prague, Atelier K.O.V., prof. Eva Eisler
+                                Secondary
+                                art school Žilina, Department: Graphic and spatial design
+                            </li>
+                        </ol>
 
-                <h3>Katarína Nábilková</h3>
-                <p>Katarína Nábilková je študentkou ateliéru K.O.V. na UMPRUM. Vo svojej tvorbe často aplikuje
-                    materiály, ktoré sú pre šperk nekonvenčné, ako aj jeho tvaroslovie. Šperk pre autorku nesie
-                    výpovednú hodnotu postoja, ktorý prináša okoliu. Nejde tu len o funkciu estetickú, ale neoddeliteľne
-                    sa prelína s konceptuálnym zázemím, ktorý nositeľ či nositeľka zdieľa. Šperk tak prichádza do
-                    konfrontácie s okolím a zpochybňuje zažité stereotypy. Súčasne vrátane tvorby a štúdia umeleckého
-                    šperku sa venuje konceptuálnym objektom, inštaláciámči presahu do dizajnu.</p>
-
-
-                <h4>Education</h4>
-                <ol class="list-unstyled">
-                    <li>Academy of Arts, Architecture and Design in Prague, Atelier K.O.V., prof. Eva Eisler Secondary
-                        art school Žilina, Department: Graphic and spatial design
-                    </li>
-                </ol>
-
-                <h4>AWARDS</h4>
-                <ol class="list-unstyled">
-                    <li>JuniorDesign 2019, Slovak finals of the competition conference, 2nd place - flacon COACAO High
-                        school theoretical activity, National round - 1st place, theme Bauhaus
-                    </li>
-                    <li>XVI. Biennial PB - Art alternatives 2020, 1st place - jewellery SM</li>
-                    <li>Úsvit, Slovak Student Design Award 2020, 1st place - chess pieces</li>
-                    <li>Master Of Crystal 2022, Preciosa - Light for Well-being, 1 st place</li>
-                </ol>
+                        <h4>AWARDS</h4>
+                        <ol class="list-unstyled">
+                            <li>JuniorDesign 2019, Slovak finals of the competition conference, 2nd place - flacon
+                                COACAO High
+                                school theoretical activity, National round - 1st place, theme Bauhaus
+                            </li>
+                            <li>XVI. Biennial PB - Art alternatives 2020, 1st place - jewellery SM</li>
+                            <li>Úsvit, Slovak Student Design Award 2020, 1st place - chess pieces</li>
+                            <li>Master Of Crystal 2022, Preciosa - Light for Well-being, 1 st place</li>
+                        </ol>
 
 
-                <h4>Completed extracurricular courses</h4>
-                <ol class="list-unstyled">
-                    <li>AVU Academy of fine arts in Prague, summer academy of painting</li>
-                    <li>Glass blowing, sandblasting and engraving course, Glassworks František, Sázava</li>
-                    <li>Glass blowing course, SOSS sklárska Lednické Rovne</li>
-                    <li>Internship, production of stained glass, Tiffany technique, company Quatro Považská Bystrica
-                        Stafford house International Brighton, London, English course at Intemediate level
-                    </li>
-                    <li>Slovak University of Technology, 3D printing workshop</li>
-                </ol>
+                        <h4>Completed extracurricular courses</h4>
+                        <ol class="list-unstyled">
+                            <li>AVU Academy of fine arts in Prague, summer academy of painting</li>
+                            <li>Glass blowing, sandblasting and engraving course, Glassworks František, Sázava</li>
+                            <li>Glass blowing course, SOSS sklárska Lednické Rovne</li>
+                            <li>Internship, production of stained glass, Tiffany technique, company Quatro Považská
+                                Bystrica
+                                Stafford house International Brighton, London, English course at Intemediate level
+                            </li>
+                            <li>Slovak University of Technology, 3D printing workshop</li>
+                        </ol>
 
 
-                <h4>Exhibitions</h4>
-                <ol class="list-unstyled">
-                    <li>Group Exhibition 2021, Designblok in Prague, Studio K.O.V.</li>
-                    <li>Group Exhibition 2021, The Museum of Decorative Arts in Prague, Inspired by Architecture</li>
-                    <li>Group Exhibition 2022, Munich Jewellery Week, On the road, prof. Eva Eisler & Studio K.O.V.</li>
-                    <li>Group Exhibition 2022, Designblok in Prague, Studio K.O.V.</li>
-                    <li>Group Exhibition 2022, Preciosa lighting at Designblok, finalists of the competition Master of
-                        Crystal
-                    </li>
-                </ol>
+                        <h4>Exhibitions</h4>
+                        <ol class="list-unstyled">
+                            <li>Group Exhibition 2021, Designblok in Prague, Studio K.O.V.</li>
+                            <li>Group Exhibition 2021, The Museum of Decorative Arts in Prague, Inspired by
+                                Architecture
+                            </li>
+                            <li>Group Exhibition 2022, Munich Jewellery Week, On the road, prof. Eva Eisler & Studio
+                                K.O.V.
+                            </li>
+                            <li>Group Exhibition 2022, Designblok in Prague, Studio K.O.V.</li>
+                            <li>Group Exhibition 2022, Preciosa lighting at Designblok, finalists of the competition
+                                Master of
+                                Crystal
+                            </li>
+                        </ol>
+                    </div>
+                </div>
 
-                <h3>MgA. Adam Pisca</h3>
-                <p>MgA. Adam Pisca je absolventom ateliéru Textil na UMPRUM. Jeho predchádzajúce vysokoškolské vzdelanie
-                    bolo zamerané na produktový dizajn, neskôr sa rozhodol pre štúdium vybraného materiálu, a to
-                    textilu, s ním spojeného remesla s presahom do voľnej a užitej tvorby. Jeho tvorbu charakterizuje
-                    umiernenosť farieb. Inšpiráciu hľadá v histórii, legendách a návratom k detstvu na dedine. Často
-                    balansuje na hrane pochmúrnosti a tajomna. Rád pracuje s kontrastom a do svojich prác vnáša
-                    príbehovosť. Nebráni sa otvárať témy, ktoré spoločnosťou rezonujú. Okrem textilnej tvorby naďalej
-                    zostáva otvorený aj produktovému dizajnu.</p>
 
-                <h4>Education</h4>
-                <ol class="list-unstyled">
-                    <li>Academy of Arts, Architecture and Design in Prague, Studio Textile, Master's studies Secondary
-                        Art school Trenčín, interior design
-                    </li>
-                    <li>Slovak University of Technology, Faculty of Architecture, design, Bachelor studies</li>
-                </ol>
-                <h4>Collaboration</h4>
-                <ol class="list-unstyled">
-                    <li>STU x Ábel Ravasz, Government Plenipotentiary for Roma Communities, project TAJSA STU x company
-                        YIT, project interior 2050
-                    </li>
-                    <li>STU x Music festival Pohoda Trenčín, The Keep Well project, designing upcycled clothing.</li>
-                </ol>
-                <h4>Completed extracurricular courses</h4>
-                <ol class="list-unstyled">
-                    <li>VECTARY - computer course of 3D program</li>
-                    <li>Course of preserving traditional crafts, bramble, willow AVA cad - computer course in report and
-                        tread design Knitting course
-                    </li>
-                </ol>
-                <h4>Exhibitions</h4>
-                <ol class="list-unstyled">
-                    <li>Group Exhibition of high school graduation theses at Trenčín Castle</li>
-                    <li>Group Exhibition for the 55th anniversary of the founding of the art department at the primary
-                        of the Juraj Kren Art School in Nové Mesto nad Váhom Group Exhibition, ART in park festival,
-                        work "Herd in herd"
-                    </li>
-                    <li>Group Exhibition, Dutch Design Week, BioArt Laboratories, Eindhoven</li>
-                </ol>
+                <div class="row">
+                    <div class="col-12 col-md-4 order-md-2">
+                        <h3 class="text-end">MgA. Adam Pisca</h3>
+                    </div>
+                    <div class="col-12 col-md-7 order-md-1">
+                        <p>MgA. Adam Pisca je absolventom ateliéru Textil na UMPRUM. Jeho predchádzajúce vysokoškolské
+                            vzdelanie
+                            bolo zamerané na produktový dizajn, neskôr sa rozhodol pre štúdium vybraného materiálu, a to
+                            textilu, s ním spojeného remesla s presahom do voľnej a užitej tvorby. Jeho tvorbu
+                            charakterizuje
+                            umiernenosť farieb. Inšpiráciu hľadá v histórii, legendách a návratom k detstvu na dedine.
+                            Často
+                            balansuje na hrane pochmúrnosti a tajomna. Rád pracuje s kontrastom a do svojich prác vnáša
+                            príbehovosť. Nebráni sa otvárať témy, ktoré spoločnosťou rezonujú. Okrem textilnej tvorby
+                            naďalej
+                            zostáva otvorený aj produktovému dizajnu.</p>
+
+                        <h4>Education</h4>
+                        <ol class="list-unstyled">
+                            <li>Academy of Arts, Architecture and Design in Prague, Studio Textile, Master's studies
+                                Secondary
+                                Art school Trenčín, interior design
+                            </li>
+                            <li>Slovak University of Technology, Faculty of Architecture, design, Bachelor studies</li>
+                        </ol>
+                        <h4>Collaboration</h4>
+                        <ol class="list-unstyled">
+                            <li>STU x Ábel Ravasz, Government Plenipotentiary for Roma Communities, project TAJSA STU x
+                                company
+                                YIT, project interior 2050
+                            </li>
+                            <li>STU x Music festival Pohoda Trenčín, The Keep Well project, designing upcycled
+                                clothing.
+                            </li>
+                        </ol>
+                        <h4>Completed extracurricular courses</h4>
+                        <ol class="list-unstyled">
+                            <li>VECTARY - computer course of 3D program</li>
+                            <li>Course of preserving traditional crafts, bramble, willow AVA cad - computer course in
+                                report and
+                                tread design Knitting course
+                            </li>
+                        </ol>
+                        <h4>Exhibitions</h4>
+                        <ol class="list-unstyled">
+                            <li>Group Exhibition of high school graduation theses at Trenčín Castle</li>
+                            <li>Group Exhibition for the 55th anniversary of the founding of the art department at the
+                                primary
+                                of the Juraj Kren Art School in Nové Mesto nad Váhom Group Exhibition, ART in park
+                                festival,
+                                work "Herd in herd"
+                            </li>
+                            <li>Group Exhibition, Dutch Design Week, BioArt Laboratories, Eindhoven</li>
+                        </ol>
+                    </div>
+                </div>
             </section>
 
 
@@ -223,7 +361,7 @@
         <!--    </div>-->
     </main>
     <footer class="pt-5 my-5 text-muted border-top">
-        <img src="/nxa.png" />
+        <img src="/nxa.png"/>
         &copy; 2023
     </footer>
 </div>

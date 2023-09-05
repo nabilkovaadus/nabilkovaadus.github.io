@@ -1,7 +1,7 @@
 @font-face {
     font-family: "HelveticaNeueLTW1G Roman";
     src: url(/fonts/HelveticaNeueLTW1G-Roman.otf) format("opentype");
-    font-weight: 700;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -15,7 +15,7 @@
 @font-face {
     font-family: HelveticaNeueLTW1G;
     src: url(/fonts/HelveticaNeueLTW1G-Bd.otf) format("opentype");
-    font-weight: 100;
+    font-weight: 700;
     font-style: normal;
 }
 
